@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.one{
+    position: fixed;
+    left: 10px;
+    top: 500px;
+}
+.two{
+    position: fixed;
+    left: 10px;
+    top: 600px;
+}
+.three{
+    position: fixed;
+    left: 400px;
+    top: 600px;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+}
+nav ul li a{
+    text-decoration:none;
+    color:#5262AC; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+nav ul li a:hover{
+    color: #6173c5a4;
+    border-bottom: 2px solid #213489;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 50px;
+}
+.hero{
+    background-color: #d3cfbfe5;
+}
+.head{
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 90px;
+}
+button{
+    padding: 20px;
+    background-color: #00208a;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+    margin-top: 30px;
+    padding: 10px 50px;
+}
+.start{
+    padding: 10px 50px;
+    font-weight: bolder;
+    color: #050754;
+    font-size: 30px;
+}
+.head2{
+    font-size: 20px;
+    color: #000E54;
+    font-weight: bold;
+    display: flex;
+}
+.nav2{
+    display: flex;
+    padding: 10px 50px;
+
+}
+.text{
+    text-align: justify;
+    width: 200px;
+}
+.im{
+    display: flex;
+}
